@@ -1,0 +1,7 @@
+x = float(input("Nuqtaning x koordinatasi: "))
+y = float(input("Nuqtaning y koordinatasi: "))
+x1 = float(input("Chap yuqori nuqtaning x1 koordinatasi: "))
+y1 = float(input("Chap yuqori nuqtaning y1 koordinatasi: "))
+x2 = float(input("O'ng pastki nuqtaning x2 koordinatasi: "))
+y2 = float(input("O'ng pastki nuqtaning y2 koordinatasi: "))
+print(x1 < x and x < x2 and y2 < y and y < y1)
